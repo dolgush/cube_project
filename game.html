@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/game.css">
+  	 <title>Impossible game</title>
+  	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Oswald:wght@300&family=Playfair+Display:ital,wght@1,400;1,500&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="game">
+		<div class ="game-header">
+			<div class ="game-score">
+				<a href="index.html" class="menu">Menu</a>
+			</div>
+			<div class ="game-level">
+				<h1 class="level-count" id = "level">1/30</span>
+			</div>
+			<div class ="death-score">
+				<h1 class="death-count" id ="death">Fails : 0</span>
+			</div>
+		</div>
+		<div class ="canvas-wrapper">
+			<canvas id="canvas">Your browser is not supported.</canvas>
+		</div>
+		<div class ="game-basement">
+			<div class ="game-time">
+				<h1 class = "time" id ="time">0:00:00</h1>
+			</div>
+		</div>
+	</div>
+	<script src="js/game.js"></script>
+</body>
+</html>

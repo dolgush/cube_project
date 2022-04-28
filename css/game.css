@@ -1,0 +1,68 @@
+body
+{
+background: #9193e3;
+margin: 0;
+}
+div.canvas-wrapper{
+width : 1100px;
+height : 700px;
+margin: auto;
+}
+div.game {
+display : flex;
+justify-content: space-between;
+flex-direction: column;
+}
+div.game-header{
+margin: auto;
+background :black;
+display: flex;
+justify-content: space-around;
+
+}
+div.game-time{
+width : 300px;
+height : 77px;
+border: 3px solid white;
+text-align: center;
+}
+div.game-basement{
+margin-top: 44px ;
+background :black;
+display: flex;
+justify-content: space-around;
+}
+
+a.menu{
+margin-top: 10px;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Staatliches', cursive;
+color : white;
+font-size: 2em;
+text-decoration: none;
+line-height: 80px;
+}
+h1.time{
+
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Staatliches', cursive;
+color : white;
+}
+h1.level-count{
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Staatliches', cursive;
+color : white;
+}
+h1.death-count{
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Staatliches', cursive;
+color : white;
+}
